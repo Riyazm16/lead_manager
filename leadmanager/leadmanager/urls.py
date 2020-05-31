@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-#this is demo
+#this is demo auth
 
 urlpatterns = [
     path("", include("frontend.urls")),
